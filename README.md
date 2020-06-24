@@ -51,11 +51,11 @@ To get a local copy  and to set it up and running follow these simple example st
 - Twitter: [@Lekunze_Nley](https://twitter.com/Lekunze_Nley)
 - Linkedin: [lekunze-nley](https://www.linkedin.com/in/lekunze-nley/)
 
-👤 **Umair Arshad**
+👤 **José Francisco Silva Díaz**
 
-- Github: [@umairarshadbutt](https://github.com/umairarshadbutt)
-- Twitter: [@its_UmairArshad](https://twitter.com/its_UmairArshad)
-- Linkedin: [umair-arshad-butt](https://www.linkedin.com/in/umair-arshad-butt/)
+- Github: [@SunnySparks](https://github.com/sunnySparks)
+- Twitter: [@JosFranT6](https://twitter.com/josfrant6)
+- Linkedin: [linkedin](https://www.linkedin.com/in/josé-francisco-silva-díaz-a2a9421a6)
 
 
 
