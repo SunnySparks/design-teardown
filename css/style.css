@@ -32,7 +32,7 @@ header {
 }
 
 .form-field {
-    margin: 30px 0 10px 10px;
+    margin: 25px 0 10px 10px;
     align-items: center;
 }
 
@@ -84,7 +84,6 @@ input[type="text"] {
     width: 150px;
     height: 40px;
     background-image: url('https://d33wubrfki0l68.cloudfront.net/e3f5fe5fb4ec15257cc4137f13a0d5081b4ea5f8/aca41/images/icons/menu-cat.svg');
-    background-position: right;
     background-repeat: no-repeat;
     height: 48px;
     outline: none;
@@ -113,4 +112,51 @@ input[type="text"] {
 .fas {
     color: #ef8d32;
     
+}
+
+.latest-article{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 0;
+}
+
+.top-article {
+    float: left;
+    width: 50%;
+    height: 700px;
+    margin: 0;
+}
+
+.top1 {
+    background-color: #e28227;
+}
+.top2 {
+    background-color: #ee7a0e;
+}
+.top3 {
+    background-color: #ee7a0e;
+}
+.top4 {
+    background-color: #e28227;
+}
+.headline {
+    position: absolute;
+    left: 22.5%;
+    top: 50px;
+    width: 700px;
+    font-size: 2em;
+    text-align: center;
+    font-weight: 800;
+    padding: 20px;
+    letter-spacing: -1px;
+    z-index: 11;
+}
+.headline h1 > span {
+    background: #fff;
+    color: #000;
+}
+
+.author {
+    display: flex;
 }
