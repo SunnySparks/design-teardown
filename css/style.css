@@ -1,0 +1,42 @@
+header {
+    background-color: #d33a2c;
+    justify-content: flex-start;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.header-picture{
+    height: 5em;
+}
+
+.font{
+    color: white;
+    font-weight: bold;
+    list-style: none;
+}
+
+.header-list{
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+.header-list a{
+    text-decoration: none;
+    color: white;
+}
+
+.header-cat {
+    height: 40px;
+    width: 80px;
+}
+
+.header-button{
+    width: 100px;
+    height: 40px;
+    background-image: url('https://d33wubrfki0l68.cloudfront.net/e3f5fe5fb4ec15257cc4137f13a0d5081b4ea5f8/aca41/images/icons/menu-cat.svg');
+    background-position: right;
+    background-repeat: no-repeat;
+}
