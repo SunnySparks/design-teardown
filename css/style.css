@@ -1,15 +1,54 @@
 header {
     background-color: #d33a2c;
     justify-content: flex-start;
+    height: 100px;
 }
 
 .flex-row {
     display: flex;
-    flex-direction: row;
+
 }
 
 .header-picture{
     height: 5em;
+}
+
+.header-logo {
+    margin-top: 20px;
+    width: 10%;
+    margin-left: 40px;
+
+}
+.header-logo img {
+    width: 175px;
+}
+
+.navbar {
+    width: 60%;
+}
+
+.search-field {
+    width: 40%;
+}
+
+.form-field {
+    margin: 30px 0 10px 10px;
+}
+
+.form-field button {
+    height: 48px;
+    width: 55px;
+    margin-right: -5px;
+    outline: none;
+    border: none;
+
+}
+
+input[type="text"] {
+    height: 46px;
+    width: 80%;
+    outline: none;
+    border: none;
 }
 
 .font{
@@ -19,13 +58,16 @@ header {
 }
 
 .header-list{
-    margin-left: 4%;
-    margin-right: 4%;
+    margin-left: 20px;
+    padding-top: 20px;
 }
 
 .header-list a{
     text-decoration: none;
     color: white;
+    font-size: 1.5em;
+    font-weight: 700;
+    
 }
 
 .header-cat {
@@ -39,4 +81,10 @@ header {
     background-image: url('https://d33wubrfki0l68.cloudfront.net/e3f5fe5fb4ec15257cc4137f13a0d5081b4ea5f8/aca41/images/icons/menu-cat.svg');
     background-position: right;
     background-repeat: no-repeat;
+    height: 48px;
+    outline: none;
+    border: transparent;
+    margin-top: -50px;
+    color: white;
 }
+
