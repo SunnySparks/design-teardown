@@ -1,5 +1,5 @@
 header {
-    background-color: #ef8d32;
+    background-color: #605f5f;
     justify-content: flex-start;
     height: 100px;
 }
@@ -45,7 +45,7 @@ header {
     background-color: white;
     border-bottom-left-radius: 10px;
     border-top-left-radius: 10px;
-    box-shadow: 1px 5px 3px 0px rgb(104, 60, 21);
+    box-shadow: 1px 5px 3px 0px rgb(93, 91, 90);
 }
 
 input[type="text"] {
@@ -53,7 +53,7 @@ input[type="text"] {
     width: 80%;
     outline: none;
     border: none;
-    box-shadow: 1px 5px 3px 0px rgb(104, 60, 21);
+    box-shadow: 1px 5px 3px 0px rgb(93, 91, 90);
 }
 
 .font{
@@ -90,7 +90,7 @@ input[type="text"] {
     border: transparent;
     margin-top: -50px;
     color: white;
-    background-color: rgb(219, 126, 0);
+    background-color: rgb(177, 176, 177);
     background-size: 35px;
     border-radius: 10px;
     background-position: 90% 60%;
@@ -98,7 +98,7 @@ input[type="text"] {
     font-weight: 500;
     text-align: left; 
     padding-left: 20px;
-    box-shadow: 1px 5px 3px 0px rgb(104, 60, 21);
+    box-shadow: 1px 5px 3px 0px rgb(93, 91, 90);
 }
 
 .search-text {
@@ -110,7 +110,7 @@ input[type="text"] {
 }
 
 .fas {
-    color: #ef8d32;
+    color: rgb(168, 167, 166);
     
 }
 
@@ -129,10 +129,10 @@ input[type="text"] {
 }
 
 .top1 {
-    background-color: #e28227;
+    background-color: #848484;
 }
 .top2 {
-    background-color: #ee7a0e;
+    background-color: #cecece;
 }
 .top3 {
     background-color: #ee7a0e;
@@ -142,21 +142,40 @@ input[type="text"] {
 }
 .headline {
     position: absolute;
-    left: 22.5%;
-    top: 50px;
-    width: 700px;
-    font-size: 2em;
+    top: 120px;
+    width: 40%;
+    /*font-size: 2em;*/
     text-align: center;
-    font-weight: 800;
-    padding: 20px;
-    letter-spacing: -1px;
+    /*font-weight: 800;
+    letter-spacing: -1px;*/
     z-index: 11;
+    height: 150px;
+    margin-left: 30%;
+    margin-right: 30%;
 }
-.headline h1 > span {
-    background: #fff;
-    color: #000;
+.headline-background {
+    height: inherit;
+    width: auto;
+    background: #000;
+    opacity: 0.5;
+}
+
+.headline-background > span > h1 {
+    color: #fff;
+    opacity: 1;
+    font-weight: 900;
+    font-family: 'Cairo', sans-serif;
+    font-size: 2.5em;
+    line-height: 1.8em;
 }
 
 .author {
     display: flex;
+}
+
+.transparency {
+    height: 200px;
+    width: 90px;
+    background: #000;
+    opacity: 0.5;
 }
