@@ -135,10 +135,10 @@ input[type="text"] {
     background-color: #cecece;
 }
 .top3 {
-    background-color: #ee7a0e;
+    background-color: #777;
 }
 .top4 {
-    background-color: #e28227;
+    background-color: #848484;
 }
 .headline {
     position: absolute;
@@ -212,6 +212,9 @@ input[type="text"] {
     margin-top: 190px;
     display: flex;
 }
+.author-photo{
+    background-color: black;
+}
 
 .author-photo img {
     width: 80px;
@@ -219,11 +222,22 @@ input[type="text"] {
 
 .author-name {
     color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+
+.author-name span {
+    font-style: italic;
 }
 
 .article-title {
     height: 200px;
     margin-top: 20px;
+}
+
+.article-title p {
+    font-size: xx-large;
+    font-weight: 900;
+    font-family: 'Cairo', sans-serif;
 }
 
 .hashtag {
