@@ -6,7 +6,7 @@ header {
 
 .flex-row {
     display: flex;
-
+    flex-direction: row;
 }
 
 .header-picture{
@@ -235,14 +235,22 @@ input[type="text"] {
 }
 
 .article-title p {
+    padding-top: 10px;
+    padding-left: 50px;
     font-size: xx-large;
     font-weight: 900;
     font-family: 'Cairo', sans-serif;
 }
 
+.comment, .comment span{
+    padding-left: 20px;
+}
+
 .hashtag {
     height: 80px;
     margin-top: 3px;
+    font-family: 'Nunito', sans-serif;
+    align-items: center;
 }
 
 .next-arrow {
@@ -256,9 +264,34 @@ input[type="text"] {
 
 }
 
+.comment span {
+    font-family: 'Cormorant Upright', serif;
+    font-size: x-large;
+    font-weight: 500;
+}
+
 /* .transparency {
     height: 200px;
     width: 90px;
     background: #000;
     opacity: 0.5;
 } */
+
+.hash1, .hash2, .hash3{
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.hash {
+    color: #fff;
+}
+
+.hash-text {
+    font-weight: 900;
+}
+
+.hash-number {
+    font-weight: lighter;
+    font-size: x-small;
+    align-self: flex-start;
+}
