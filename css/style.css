@@ -173,9 +173,78 @@ input[type="text"] {
     display: flex;
 }
 
-.transparency {
+.model {
+    background: #000;
+    opacity: 0.5;
+    color: #fff;
+}
+
+.head-article,
+.head-article-left {
+    margin-top: 50px;
+    width: 200px;
+    height: 50px;
+    
+}
+
+.head-article {
+    float: right;
+    margin-right: 50px;
+    border: 1px solid blue;
+}
+.head-article-left {
+    float: left;
+    margin-left: 50px;
+    border: 1px solid blue;
+}
+
+.article-title, 
+.author,
+.hashtag,
+.next-arrow {
+    width: 80%;
+    margin: 0 auto;
+    /* background-color: darkmagenta; */
+}
+
+.author {
+    height: 80px;
+    margin-top: 190px;
+    display: flex;
+}
+
+.author-photo img {
+    width: 80px;
+}
+
+.author-name {
+    color: #fff;
+}
+
+.article-title {
+    height: 200px;
+    margin-top: 20px;
+}
+
+.hashtag {
+    height: 80px;
+    margin-top: 3px;
+}
+
+.next-arrow {
+    margin-top: 75px;
+
+}
+
+.next-arrow a i {
+    size: 7px;
+    color: #fff;
+
+}
+
+/* .transparency {
     height: 200px;
     width: 90px;
     background: #000;
     opacity: 0.5;
-}
+} */
