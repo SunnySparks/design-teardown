@@ -2,18 +2,21 @@
 <html lang="en">
     <head>
         <title></title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="css/style.css" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;600;900&family=Cormorant+Upright:wght@300;400;500&family=Nunito:wght@200;400;700;800;900&family=Playfair+Display+SC:ital@0;1&family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link href="css/style.css" rel="stylesheet" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;600;900&family=Cormorant+Upright:wght@300;400;500&family=Nunito:wght@200;400;700;800;900&family=Playfair+Display+SC:ital@0;1&family=Roboto:wght@100;300;400&display=swap"
+            rel="stylesheet"
+        />
         <script src="https://kit.fontawesome.com/cbdf2b0f0e.js" crossorigin="anonymous"></script>
     </head>
     <body>
         <header class="flex-row">
             <div class="header-logo">
                 <a href="#">
-                    <img srcset="https://d33wubrfki0l68.cloudfront.net/81fa290218cedc39d32be7b1f1aba58a25829ebe/0a05f/images/logo--full.svg" class="header-picture">
-                </a> 
+                    <img srcset="https://d33wubrfki0l68.cloudfront.net/81fa290218cedc39d32be7b1f1aba58a25829ebe/0a05f/images/logo--full.svg" class="header-picture" />
+                </a>
             </div>
             <nav class="navbar">
                 <ul class="flex-row font">
@@ -22,7 +25,11 @@
                     <li class="header-list"><a href="#">Books</a></li>
                     <li class="header-list"><a href="#">Events</a></li>
                     <li class="header-list"><a href="#">Membership</a></li>
-                    <li class="header-list flex-row"><a href="#"><button type="button" class="header-button"><span>More</span><span class="header-cat"></span></button></a></li>
+                    <li class="header-list flex-row">
+                        <a href="#">
+                            <button type="button" class="header-button"><span>More</span><span class="header-cat"></span></button>
+                        </a>
+                    </li>
                 </ul>
             </nav>
             <div class="search-field">
@@ -30,22 +37,22 @@
                     <button type="button">
                         <i class="fas fa-search"></i>
                     </button>
-                    <input type="text" placeholder="Search articles..." class="search-text">
+                    <input type="text" placeholder="Search articles..." class="search-text" />
                 </form>
             </div>
         </header>
         <main class="latest-article">
             <article class="top-article top1">
                 <div class="head-article-left model">
-                    <img src="" alt="">
-                    <button type="button">Seriously, translucent?</button>
+                    <img src="images/kiely-philip-200x200.jpg" alt="" />
+                    <button class="btn" type="button">Seriously, translucent?</button>
                 </div>
                 <div class="author model">
                     <div class="author-photo">
-                        <img src="images/kiely-philip-200x200.jpg" alt="author profile">
+                        <img src="images/kiely-philip-200x200.jpg" alt="author profile" />
                     </div>
                     <div class="author-name">
-                        Adeneye David Abiodun <span>wrote</span>
+                        <p>Adeneye David Abiodun <span>wrote</span></p>
                     </div>
                 </div>
                 <div class="article-title model">
@@ -55,34 +62,89 @@
                     </div>
                 </div>
                 <div class="hashtag model">
-                    <span class="hash1 model">
-                        <span class="hash">#</span>
-                        <span class="hash-text">Design <sup>452</sup></span>
-                    </span>
-                    <span class="hash2 model">
-                        <span class="hash">#</span>
-                        <span class="hash-text">Apps <sup>201</sup></span>
-                    </span>
-                    <span class="hash3 model">
-                        <span class="hash">#</span>
-                        <span class="hash-text">React <sup>46</sup></span>
-                    </span>
+                    <p>
+                        <span class="hash1"># Design <sup>452</sup></span>
+                        <span class="hash2"># Apps <sup>201</sup></span>
+                        <span class="hash3"># React <sup>46</sup></span>
+                    </p>
                 </div>
                 <div class="next-arrow">
                     <a href="#"><i class="fas fa-long-arrow-alt-right"></i></a>
                 </div>
             </article>
             <article class="top-article top2">
-                    <div class="head-article model">
-                        <img src="" alt="">
-                        <button type="button">Seriously, translucent?</button>
-                    </div>
+                <div class="head-article model">
+                    <img src="images/adeneye-david-abiodun-200x200.jpg" alt="" />
+                    <button class="btn" type="button">Seriously, translucent?</button>
+                </div>
                 <div class="author model">
                     <div class="author-photo">
-                        <img src="images/adeneye-david-abiodun-200x200.jpg" alt="author profile">
+                        <img src="images/adeneye-david-abiodun-200x200.jpg" alt="author profile" />
                     </div>
                     <div class="author-name">
-                        Suzanne Scacca <span>wrote</span>
+                        <p>Suzanne Scacca <span>wrote</span></p>
+                    </div>
+                </div>
+                <div class="article-title model">
+                    <p>
+                        A Practical Guide To Testing React Applications With Jest
+                    </p>
+                    <div class="comment">
+                        <span><i class="far fa-comment-alt"></i></span>&nbsp;<span>Leave a Comment</span>
+                    </div>
+                </div>
+                <div class="hashtag model">
+                    <p>
+                        <span class="hash1"># Design <sup>452</sup></span>
+                        <span class="hash2"># Apps <sup>201</sup></span>
+                        <span class="hash3"> # React <sup>46</sup></span>
+                    </p>
+                </div>
+                <div class="next-arrow">
+                    <a href="#"><i class="fas fa-long-arrow-alt-right"></i></a>
+                </div>
+            </article>
+            <article class="top-article top3">
+                <div class="head-article-left model">
+                    <img src="images/kiely-philip-200x200.jpg" alt="" />
+                    <button class="btn" type="button">Seriously, translucent?</button>
+                </div>
+                <div class="author model">
+                    <div class="author-photo">
+                        <img src="images/kiely-philip-200x200.jpg" alt="author profile" />
+                    </div>
+                    <div class="author-name">
+                        <p>Adeneye David Abiodun <span>wrote</span></p>
+                    </div>
+                </div>
+                <div class="article-title model">
+                    <p>Django Highlights: Wrangling Static Assets And Media Files (Part 4)</p>
+                    <div class="comment">
+                        <span><i class="far fa-comment-alt"></i></span><span>Leave a Comment</span>
+                    </div>
+                </div>
+                <div class="hashtag model">
+                    <p>
+                        <span class="hash1"># Design <sup>452</sup></span>
+                        <span class="hash2"># Apps <sup>201</sup></span>
+                        <span class="hash3"># React <sup>46</sup></span>
+                    </p>
+                </div>
+                <div class="next-arrow">
+                    <a href="#"><i class="fas fa-long-arrow-alt-right"></i></a>
+                </div>
+            </article>
+            <article class="top-article top4">
+                <div class="head-article model">
+                    <img src="images/adeneye-david-abiodun-200x200.jpg" alt="" />
+                    <button class="btn" type="button">Seriously, translucent?</button>
+                </div>
+                <div class="author model">
+                    <div class="author-photo">
+                        <img src="images/adeneye-david-abiodun-200x200.jpg" alt="author profile" />
+                    </div>
+                    <div class="author-name">
+                        <p>Suzanne Scacca <span class="">wrote</span></p>
                     </div>
                 </div>
                 <div class="article-title model">
@@ -94,106 +156,21 @@
                     </div>
                 </div>
                 <div class="hashtag model">
-                    <span class="hash1 model">
-                        <span class="hash">#</span>
-                        <span class="hash-text">Design <sup>452</sup></span>
-                    </span>
-                    <span class="hash2 model">
-                        <span class="hash">#</span>
-                        <span class="hash-text">Apps <sup>201</sup></span>
-                    </span>
-                    <span class="hash3 model">
-                        <span class="hash">#</span>
-                        <span class="hash-text">React <sup>46</sup></span>
-                    </span>
+                    <p>
+                        <span class="hash1"># Design <sup>452</sup></span>
+                        <span class="hash2"># Apps <sup>201</sup></span>
+                        <span class="hash3"># React <sup>46</sup></span>
+                    </p>
                 </div>
                 <div class="next-arrow">
                     <a href="#"><i class="fas fa-long-arrow-alt-right"></i></a>
                 </div>
             </article>
-            <article class="top-article top3">
-                <div class="head-article-left model">
-                    <img src="" alt="">
-                    <button type="button">Seriously, translucent?</button>
-                </div>
-                <div class="author model">
-                    <div class="author-photo">
-                        <img src="images/kiely-philip-200x200.jpg" alt="author profile">
-                    </div>
-                    <div class="author-name">
-                        Adeneye David Abiodun <span>wrote</span>
-                    </div>
-                </div>
-                <div class="article-title model">
-                    <p>Django Highlights: Wrangling Static Assets And Media Files (Part 4)</p>
-                    <div class="comment">
-                        <span><i class="far fa-comment-alt"></i></span><span>Leave a Comment</span>
-                    </div>
-                </div>
-                <div class="hashtag model">
-                    <div class="hashtag flexrow model">
-                        <span class="hash1 model">
-                            <span class="hash">#</span>
-                            <span class="hash-text">Design <sup>452</sup></span>
-                        </span>
-                        <span class="hash2 model">
-                            <span class="hash">#</span>
-                            <span class="hash-text">Apps <sup>201</sup></span>
-                        </span>
-                        <span class="hash3 model">
-                            <span class="hash">#</span>
-                            <span class="hash-text">React <sup>46</sup></span>
-                        </span>
-                    </div>
-                </div>
-                <div class="next-arrow">
-                    <a href="#"><i class="fas fa-long-arrow-alt-right"></i></a>
-                </div>
-            </article>
-            <article class="top-article top4">
-                <div class="head-article model">
-                    <img src="" alt="">
-                    <button type="button">Seriously, translucent?</button>
-                </div>
-            <div class="author model">
-                <div class="author-photo">
-                    <img src="images/adeneye-david-abiodun-200x200.jpg" alt="author profile">
-                </div>
-                <div class="author-name">
-                    Suzanne Scacca <span class="">wrote</span>
-                </div>
-            </div>
-            <div class="article-title model">
-                <p>
-                    A Practical Guide To Testing React Applications With Jest
-                </p>
-                <div class="comment">
-                    <span><i class="far fa-comment-alt"></i></span><span>Leave a Comment</span>
-                </div>
-            </div>
-            <div class="hashtag model">
-                <div class="hashtag flexrow model">
-                    <span class="hash1 model">
-                        <span class="hash">#</span>
-                        <span class="hash-text">Design <sup>452</sup></span>
-                    </span>
-                    <span class="hash2 model">
-                        <span class="hash">#</span>
-                        <span class="hash-text">Apps <sup>201</sup></span>
-                    </span>
-                    <span class="hash3 model">
-                        <span class="hash">#</span>
-                        <span class="hash-text">React <sup>46</sup></span>
-                    </span>
-                </div>
-            </div>
-            <div class="next-arrow">
-                <a href="#"><i class="fas fa-long-arrow-alt-right"></i></a>
-            </div>
-        </article>
         </main>
-        <div class="headline"><div class="headline-background"><span><h1>Don’t Miss These Latest
-            Articles</h1></span></div></div>
-
+        <div class="headline">
+            <div class="headline-background">
+                <span><h1>Don’t Miss These Latest Articles</h1></span>
+            </div>
+        </div>
     </body>
 </html>
