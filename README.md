@@ -14,13 +14,12 @@ Additional description about the project and its features.
 ## Live Demo
 
 [Live Demo Link](https://rawcdn.githack.com/happiguru/mint-signup-page/855e970b97e526b922bac5771130a61339996c91/index.html)
-<!-- [Live Demo Link - Umair](https://umairarshadbutt.github.io/Youtube_Home_Page/) -->
 
 
 ## Getting Started
 
 **Navigation bar**
-- Go to [Mint.com’s signup page](https://mint.intuit.com/login.event?task=S) and have a look around. The form isn’t exceptionally complicat
+- Go to [Smashing Magazine](https://www.smashingmagazine.com/) and have a look around. The form isn’t exceptionally complicat
 This project is a Sign Up form for Mint.com.
 We have a cloned webpage built with following features:
 
@@ -40,7 +39,7 @@ To get a local copy  and to set it up and running follow these simple example st
 - Browser
 - Internet
 
-- Download the code from repository (https://github.com/happiguru/mint-signup-page/) and double click the index.html file
+- Download the code from repository (https://github.com/happiguru/design-teardown) and double click the index.html file
 
 
 ## Authors
