@@ -1,4 +1,4 @@
-header {
+.top-header {
     background-color: #605f5f;
     justify-content: flex-start;
     height: 100px;
@@ -355,7 +355,11 @@ header {
 
 .lat-post2:hover,
 .lat-post3:hover,
-.lat-post4:hover {
+.lat-post4:hover,
+.lat-post7:hover, 
+.lat-post8:hover, 
+.lat-post10:hover, 
+.lat-post9:hover {
   width: 100%; 
   height: auto; 
   margin: -5px -5px -5px -5px; 
@@ -368,4 +372,157 @@ header {
 
 .grammarly > img {
     width: 200px;
+}
+
+.latest-posts2, .latest-posts3{
+  display: flex;
+  margin-top: 20px;
+  height: 600px;
+}
+
+.lat-post6, .lat-post11 {
+  flex: 2 1 auto;
+  /*width: 40%;*/
+  border: 1px solid green;
+}
+
+.lat-post7, .lat-post8, .lat-post10, .lat-post9{
+  flex: 1 1 auto;
+  /*width: 30%;*/
+  border: 1px solid red;
+}
+
+.latest-posts4 {
+  width: 100%;
+  margin-top: 20px;
+  border: 1px solid goldenrod;
+  height: 50px;
+}
+
+.lat-post6, .lat-post11 {
+  align-content: center;
+  text-align: center;
+  background-color: rgb(168, 167, 166);
+}
+
+.lat-img-container {
+  margin: 0 auto;
+  width: 200px;
+}
+
+.lat-post6 img, .lat-post11 img {
+  width: 200px;
+  filter: grayscale(100%);
+}
+
+.lat-post6 p, .lat-post6 header, .lat-post11 p, .lat-post11 header{
+  margin-left: 40px;
+  margin-right: 40px;
+  width: 700px;
+}
+.lat-post6 button, .lat-post11 button {
+  width: 300px;
+  height: 60px;
+  margin-bottom: 40px;
+  font-size: x-large;
+}
+.lat-post6 header, .lat-post11 header {
+  font-size: xx-large;
+}
+
+.lat-paragraph{
+  font-size: x-large;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.latest-posts4 {
+  text-align: center;
+}
+
+.latest-posts4 > p {
+  text-decoration: underline;
+}
+
+.clicks {
+  text-align: center;
+  margin-top: 40px;
+  border: 1px solid blue;
+}
+
+#click-date {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.clicks header {
+  font-size: 40px;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.clicks p {
+  font-size: x-large;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.clicks button {
+  height: 60px;
+  font-size: xx-large;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.clicks img {
+  height: 600px;
+  filter: grayscale(100%);
+  transform: rotate()
+}
+
+.community-links {
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+.community-big{
+  margin-left: 40px;
+  width: 80%;
+  margin-bottom: 200px;
+} 
+
+.community-big img, .community-small img{
+  float: left;
+  margin-left: 30px;
+  margin-right: 30px;
+  transform: rotate(-10deg);
+}
+
+.community-small{
+  display: grid;
+  margin-top: 200px;
+  width: 80%;
+  margin-left:auto;
+  margin-right:auto;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas:
+  "c1 c2"
+  "c3 c4"
+  "c5 c6";
+} 
+
+.community-small p {
+  font-size: large;
+}
+
+.community-small h4 {
+  font-size: xx-large;
+}
+
+.community-small span{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 5px;
+  margin-right: 5px;
 }
