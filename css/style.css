@@ -307,10 +307,16 @@ header {
     font-size: x-small;
     align-self: flex-start;
   }
-  .latest-post{
+  .latest-posts{
+      margin-top: 20px;
       width: 100%;
+      display: grid;
+      grid-template-columns: 0.1fr repeat(4, 1fr);
+      grid-template-rows: 1fr;
+      gap: 2px 2px;
+
   }
-  .latest-ago{
+  /* .latest-ago{
     color: #848484;
 }
 .latest-title{
@@ -321,32 +327,40 @@ header {
 }
 .latest-title:hover{
     color: #777
-}
-.latest-by{
+} */
+/* /* .latest-by{
     font-family: "Cairo", sans-serif;
     text-decoration: underline;
 }
 .latest-preview{
     font-family: 'Nunito', sans-serif;
-}
-  .vertical {
-      -webkit-transform: rotate(90deg);
-      width: max-content;
+} */
+ .lat-post1 {
+    writing-mode: vertical-rl;
+  text-orientation: upright;
+      /* transform: rotate(90deg); */
       font-family: 'Nunito', sans-serif;
   }
 
-.verti{
-   flex: 0 1 auto;
-  }
 
-.lat-post {
-    flex: 1 1 auto;
+.lat-post1,
+.lat-post2,
+.lat-post3,
+.lat-post4,
+.lat-post5 {
+    height: 500px;
 }
 
-.border {
-    border: 1px solid black;
+.lat-post2:hover,
+.lat-post3:hover,
+.lat-post4:hover {
+  width: 100%; 
+  height: auto; 
+  margin: -5px -5px -5px -5px; 
+  box-shadow: 0 0 8px rgba(0,0,0,0.8);
 }
 
-.grammarly{
-    width: 280px;
+.article2-section {
+    background: transparent;
 }
+
