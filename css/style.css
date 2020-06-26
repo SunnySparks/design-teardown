@@ -349,6 +349,8 @@ header {
 .lat-post4,
 .lat-post5 {
     height: 500px;
+    width: 100%;
+    border: 1px solid blue;
 }
 
 .lat-post2:hover,
@@ -364,3 +366,6 @@ header {
     background: transparent;
 }
 
+.grammarly > img {
+    width: 200px;
+}
