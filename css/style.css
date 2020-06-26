@@ -8,7 +8,10 @@ header {
     display: flex;
     flex-direction: row;
   }
-  
+  .flex-column {
+    display: flex;
+    flex-direction: column;
+  }
   .header-picture {
     height: 5em;
   }
@@ -116,6 +119,7 @@ header {
     height: auto;
     margin: 0 auto;
     margin-top: 0;
+    display: inline-block;
   }
   
   .top-article {
@@ -303,4 +307,46 @@ header {
     font-size: x-small;
     align-self: flex-start;
   }
-  
+  .latest-post{
+      width: 100%;
+  }
+  .latest-ago{
+    color: #848484;
+}
+.latest-title{
+    font-family: "Cairo", sans-serif;
+    text-decoration: underline;
+    font-size: x-large;
+    font-weight: 800;
+}
+.latest-title:hover{
+    color: #777
+}
+.latest-by{
+    font-family: "Cairo", sans-serif;
+    text-decoration: underline;
+}
+.latest-preview{
+    font-family: 'Nunito', sans-serif;
+}
+  .vertical {
+      -webkit-transform: rotate(90deg);
+      width: max-content;
+      font-family: 'Nunito', sans-serif;
+  }
+
+.verti{
+   flex: 0 1 auto;
+  }
+
+.lat-post {
+    flex: 1 1 auto;
+}
+
+.border {
+    border: 1px solid black;
+}
+
+.grammarly{
+    width: 280px;
+}
