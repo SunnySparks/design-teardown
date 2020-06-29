@@ -344,8 +344,85 @@
   text-orientation: upright;
       /* transform: rotate(90deg); */
       font-family: 'Nunito', sans-serif;
+      background-color: #a8a8a8;
   }
 
+  .lat-post2{
+    background-color: #a8a8a8;
+  }
+  .far{
+    margin-left: 25px;
+  }
+
+  .days{
+    font-family: "Roboto", sans-serif;
+    padding-top: 10px;
+    margin-top: 10px;
+    margin-left: 25px;
+  }
+  .article2-section, 
+  .lat-post7 header, 
+  .lat-post8 header, 
+  .lat-post9 header, 
+  .lat-post10 header {
+    font-family: "Cairo", sans-serif;
+    color: white;
+    width: 80%;
+    padding: 25px;
+  }
+  .article2-section a, 
+  .lat-post7 header a, 
+  .lat-post8 header a, 
+  .lat-post9 header a, 
+  .lat-post10 header a {
+    font-family: "Cairo", sans-serif;
+    color: white;
+
+  }
+  .article2-section a:hover {
+    font-family: "Cairo", sans-serif;
+    color: white;
+  }
+  .article2-section a:active {
+    font-family: "Cairo", sans-serif;
+    color: white;
+  }
+  .article2-section span, 
+  .lat-post7 span, 
+  .lat-post8 span, 
+  .lat-post9 span, 
+  .lat-post10 span{
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    color: #424242;
+  }
+  .article2-section span a:active{
+    color: #424242;
+  }
+  .lat-post2 p, 
+  .lat-post3 p, 
+  .lat-post4 p, 
+  .lat-post7 p, 
+  .lat-post8 p, 
+  .lat-post9 p, 
+  .lat-post10 p{
+    font-family: 'Nunito', sans-serif;
+    width: 80%;
+    margin-left: 25px;
+  }
+  .lat-post3, 
+  .lat-post7, 
+  .lat-post9{
+    background-color: #b5b5b5;
+  }
+  .lat-post4, 
+  .lat-post8, 
+  .lat-post10{
+    background-color: #cecece;
+  }
+  .lat-post5{
+    background-color: #e2e2e2;
+  }
 
 .lat-post1,
 .lat-post2,
@@ -354,7 +431,7 @@
 .lat-post5 {
     height: 500px;
     width: 100%;
-    border: 1px solid blue;
+    /*border: 1px solid blue;*/
 }
 
 .lat-post2:hover,
@@ -370,14 +447,18 @@
   box-shadow: 0 0 8px rgba(0,0,0,0.8);
 }
 
-.article2-section {
-    background: transparent;
+.grammarly {
+  text-justify: center;
+  height: 290px;
+  width: 310px;
+  background: #c6c6c6;
+  margin-left: 40px;
+  border-radius: 5%;
 }
-
-.grammarly > img {
-    width: 200px;
+.lat-post5 p {
+  font-size: small;
+  margin-left: 120px;
 }
-
 .latest-posts2, .latest-posts3{
   display: flex;
   margin-top: 20px;
@@ -387,26 +468,24 @@
 .lat-post6, .lat-post11 {
   flex: 2 1 auto;
   /*width: 40%;*/
-  border: 1px solid green;
 }
 
 .lat-post7, .lat-post8, .lat-post10, .lat-post9{
   flex: 1 1 auto;
   /*width: 30%;*/
-  border: 1px solid red;
 }
 
 .latest-posts4 {
   width: 100%;
   margin-top: 20px;
-  border: 1px solid goldenrod;
   height: 50px;
 }
 
-.lat-post6, .lat-post11 {
+.lat-post6, .lat-post11, .lat-post6 a, .lat-post11 a {
   align-content: center;
   text-align: center;
-  background-color: rgb(168, 167, 166);
+  background-color: #8c8b8a;
+  color: white;
 }
 
 .lat-img-container {
@@ -414,9 +493,12 @@
   width: 200px;
 }
 
-.lat-post6 img, .lat-post11 img {
+.lat-img-container {
+  margin-top: 20px;
   width: 200px;
-  filter: grayscale(100%);
+  height: 200px;
+  border-radius: 5%;
+  background-color: white;
 }
 
 .lat-post6 p, .lat-post6 header, .lat-post11 p, .lat-post11 header{
@@ -424,11 +506,21 @@
   margin-right: 40px;
   width: 700px;
 }
+.lat-post6 h2, .lat-post11 h2{
+  margin: 10px 40px 10px 40px;
+}
+.lat-post6 h2 a, .lat-post11 h2 a, .lat-post6 h2 a:active, .lat-post11 h2 a:active{
+  font-family: "Cairo", sans-serif;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: white;
+}
 .lat-post6 button, .lat-post11 button {
   width: 300px;
   height: 60px;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
   font-size: x-large;
+  border-radius: 3%;
 }
 .lat-post6 header, .lat-post11 header {
   font-size: xx-large;
@@ -436,33 +528,42 @@
 
 .lat-paragraph{
   font-size: x-large;
-  margin-top: 40px;
-  margin-bottom: 40px;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .latest-posts4 {
+  display:flex;
   text-align: center;
+  justify-content: center;
+  width: 100%;
 }
 
 .latest-posts4 > p {
-  text-decoration: underline;
+  width: 15%;
+  padding-bottom: 20px;
+  border-bottom: 5px solid black;
 }
 
 .clicks {
   text-align: center;
   margin-top: 40px;
+  background-color: #b5b6b7;
   border: 1px solid blue;
 }
 
 #click-date {
   margin-top: 50px;
   margin-bottom: 50px;
+  font-family: 'Libre Baskerville', serif;
+  color:white;
 }
 
 .clicks header {
   font-size: 40px;
   margin-left: 20%;
   margin-right: 20%;
+  font-family: "Cairo", sans-serif;
 }
 
 .clicks p {
