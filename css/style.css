@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 .top-header {
     background-color: #605f5f;
     justify-content: flex-start;
@@ -525,4 +529,44 @@
   margin-bottom: 20px;
   margin-left: 5px;
   margin-right: 5px;
+}
+
+.featured-section {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  background: grey;
+}
+
+.main-sect {
+  height: 350px;
+  margin-left: 50px;
+  border: 1px solid blue;
+}
+
+.book-image {
+  height: 350px;
+  margin-right: 50px;
+  border: 1px solid yellow;
+}
+
+.our-guides {
+  display: grid;
+  margin: 0 50px 0 50px;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto;
+  
+}
+
+.guide1 {
+  border: 1px solid green;
+  height: 350px;
+}
+
+.guide1.guide {
+  align-self: center;
+}
+
+.footer-list {
+  display: flex;
+  flex-wrap: wrap;
 }
