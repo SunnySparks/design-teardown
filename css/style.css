@@ -570,6 +570,7 @@
   font-size: x-large;
   margin-left: 20%;
   margin-right: 20%;
+  color: white;
 }
 
 .clicks button {
@@ -579,10 +580,12 @@
   margin-bottom: 20px;
 }
 
-.clicks img {
+.click-img {
   height: 600px;
-  filter: grayscale(100%);
-  transform: rotate()
+  width: 400px;
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .community-links {
