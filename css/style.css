@@ -456,7 +456,7 @@ sup {
 }
 
 .latest-posts4,
-.community-footer {
+.community-footer, .more-guides p {
   width: 100%;
   margin-top: 20px;
   height: 50px;
@@ -535,7 +535,7 @@ sup {
 }
 
 .latest-posts4 > p,
-.community-footer > p {
+.community-footer > p, .more-guides a {
   width: 16%;
   padding-bottom: 20px;
   border-bottom: 5px solid black;
@@ -573,7 +573,7 @@ sup {
 }
 
 .clicks button,
-.main-sect button {
+.main-sect button{
   height: 60px;
   font-size: xx-large;
   margin-top: 20px;
@@ -595,7 +595,7 @@ sup {
   display: flex;
   flex-direction: row;
 }
-.community-links {
+.community-links, .guide-text {
   writing-mode: vertical-rl;
   text-orientation: upright;
 }
@@ -709,36 +709,36 @@ sup {
 .featured-section {
   display: grid;
   grid-template-columns: 2fr 1fr;
+  background-color: #b5b6b7;
 }
 
 .main-sect {
   height: 300px;
-  margin-left: 50px;
-  background: rgb(93, 91, 90);
+  padding-left: 50px;
 }
 .main-sect h3 {
   font-family: "Libre Baskerville", serif;
 }
-.main-sect a {
+.main-sect a, .main-sect a:active {
   font-family: "Cairo", sans-serif;
   font-size: 30px;
   font-weight: bold;
   margin: 0;
+  color: black;
 }
-.main-sect p {
+.main-sect p, .guide-pa,  .guide p {
   font-family: "nunito", sans-serif;
 }
 .book-image {
   padding-bottom: 30px;
   height: 300px;
-  background: rgb(93, 91, 90);
 }
 .book-image div {
   position: relative;
   top: -40px;
   float: right;
   height: 300px;
-  width: 200px;
+  width: 220px;
   margin-right: 50px;
   border: 1px solid yellow;
   transform: rotate(-8deg);
@@ -747,27 +747,90 @@ sup {
 
 .our-guides {
   display: grid;
-  margin: 0 50px 0 50px;
-  grid-template-columns: auto auto auto;
-  grid-template-rows: auto auto;
+  margin-top: 30px;
+  grid-template-columns: 4% 30% 30% 30%;
+  grid-template-rows: auto;
+  grid-template-areas: 
+  "txt g1 g2 g3";
 }
-
+.guide-text{
+  grid-area: "txt";
+}
 .guide1 {
-  border: 1px solid green;
-  height: 350px;
+  border: 1px solid black;
+  height: 600px;
   margin: 60px 20px 60px 20px;
   border-radius: 10px;
+  grid-area: "g1";
+  padding-left: 20px;
+  padding-right: 20px;
 }
-
+.guide2 {
+  border: 1px solid black;
+  height: 600px;
+  margin: 60px 20px 60px 20px;
+  border-radius: 10px;
+  grid-area: "g2";
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.guide3 {
+  border: 1px solid black;
+  height: 600px;
+  margin: 60px 20px 60px 20px;
+  border-radius: 10px;
+  grid-area: "g3";
+  padding-left: 20px;
+  padding-right: 20px;
+}
 .guide {
   margin: 0 auto;
   max-width: 35%;
-  background: gray;
+  background: #b5b6b7;
   height: 600px;
   margin-top: 20px;
   border-radius: 10px;
 }
-
+.guide1 h3, 
+.guide2 h3, 
+.guide3 h3 {
+  font-family: "Libre Baskerville", serif;
+}
+.guide1 a, 
+.guide2 a, 
+.guide3 a, 
+.guide a {
+  font-family: "Cairo", sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: black;
+}
+.guide1 a:active,
+.guide2 a:active, 
+.guide3 a:active, 
+.guide a:active{
+ color: black;
+}
+.guide a, .guide p, .guide-form{
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.guide-form {
+  display: flex;
+  flex-direction: row;
+}
+#email{
+  flex: 2 1 auto;
+  height: 40px;
+}
+#meow{
+  flex: 1 1 auto;
+  height: 40px;
+  font-family: "Cairo", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
 .more-guides {
   max-width: 100%;
   height: 50px;
@@ -782,8 +845,24 @@ sup {
 
 .more-guides a {
   font-size: 18px;
+  text-decoration: none;
 }
-
+.guide-pa{
+  text-align: justify;
+  font-size: 22px;
+}
+.guide-button {
+  height: 70px;
+  width: 100%;
+  font-size: large;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.guide-main-image{
+  width: 557px;
+  height: 300px;
+  background-color: #ccc;
+}
 .footer-main {
   height: 530px;
   background: grey;
@@ -851,7 +930,7 @@ sup {
 }
 
 .community-footer {
-  margin-bottom: 40px;
+  margin-bottom: 80px;
 }
 
 .backtotop {
