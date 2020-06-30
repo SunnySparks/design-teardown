@@ -1,8 +1,7 @@
 # design-teardown
-Clone of Smashing Magazine Web Page - A Microverse Collaborative Project (Stanley and Umair)
-# mint-signup-page (Embedding Images and Video)
+Clone of Smashing Magazine Web Page - A Microverse Collaborative Project (Stanley and José Francisco)
 
-![screenshot](app_screenshot.png)
+![screenshot](screenshot.png)
 
 Additional description about the project and its features.
 
