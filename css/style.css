@@ -55,7 +55,7 @@
 }
 
 input[type="text"] {
-  height: 48px;
+  height: 50px;
   width: 80%;
   outline: none;
   border: none;
@@ -160,7 +160,7 @@ input[type="text"] {
   height: inherit;
   width: auto;
   background: #000;
-  opacity: 0.5;
+  /*opacity: 0.5;*/
 }
 
 .headline-background > span > h1 {
