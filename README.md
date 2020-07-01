@@ -2,7 +2,7 @@
 
 Clone of Smashing Magazine Web Page - A Microverse Collaborative Project (Stanley and José Francisco)
 
-![screenshot](screenshot.png)
+![screenshot](app_screenshot.png)
 
 
 ## Built With
