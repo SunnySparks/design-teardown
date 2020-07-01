@@ -466,7 +466,7 @@ sup {
   line-height: calc(1.5em + 0.2vw);
 }
 
-.description-info p{
+.description-info p {
   color: #fff;
   transition: color 0.2s ease-out;
 }
@@ -832,6 +832,13 @@ h5 {
   font-family: "Nunito", sans-serif;
 }
 
+footer h4 {
+  padding-top: 70px;
+  padding-bottom: 40px;
+  color: #fff;
+  transition: color 0.2s ease-out;
+}
+
 .community-small > h4 {
   font-size: xx-large;
 }
@@ -1011,13 +1018,6 @@ h3 {
   text-align: center;
 }
 
-footer h4 {
-  padding-top: 70px;
-  padding-bottom: 40px;
-  color: #fff;
-  transition: color 0.2s ease-out;
-}
-
 .footer-list {
   display: flex;
   flex-wrap: wrap;
@@ -1079,8 +1079,8 @@ footer h4 {
   a[href$="11"] {
     display: none;
   }
+
   .hide {
     display: none;
   }
 }
-
