@@ -217,18 +217,18 @@ h1 {
 
 .author {
   height: 80px;
-  margin-top: 190px;
   display: flex;
   width: 80%;
   margin: 0 auto;
+  margin-top: 190px;
 }
 
 .author1 {
   height: 80px;
-  margin-top: 50px;
   display: flex;
   width: 80%;
   margin: 0 auto;
+  margin-top: 50px;
 }
 
 .author-photo {
@@ -262,7 +262,7 @@ h1 {
   font-family: "Roboto", sans-serif;
 }
 
-.author-name > P {
+.author-name > p {
   margin-top: 25px;
   margin-left: 20px;
 }
@@ -370,6 +370,75 @@ sup {
   padding-top: 10px;
   margin-top: 10px;
   margin-left: 25px;
+}
+
+.lat-post6,
+.lat-post11,
+.lat-post6 a,
+.lat-post11 a {
+  align-content: center;
+  text-align: center;
+  background-color: #8c8b8a;
+  color: white;
+}
+
+.more-guides a {
+  width: 16%;
+  padding-bottom: 20px;
+  border-bottom: 5px solid black;
+  font-size: 18px;
+  text-decoration: none;
+  color: black;
+}
+
+.more-guides a:active {
+  font-size: 18px;
+  text-decoration: none;
+  color: black;
+}
+
+.community-big a {
+  color: black;
+}
+
+.main-sect a,
+.main-sect a:active {
+  font-family: "Cairo", sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  margin: 0;
+  color: black;
+}
+
+.guide1 a,
+.guide2 a,
+.guide3 a,
+.guide a {
+  font-family: "Cairo", sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: black;
+}
+
+.guide1 a:active,
+.guide2 a:active,
+.guide3 a:active,
+.guide a:active {
+  color: black;
+}
+
+.footer-list li a {
+  text-align: center;
+  font-size: calc(1em + 0.2vw);
+  text-decoration: none;
+  line-height: calc(1.5em + 0.2vw);
+  padding-right: 5px;
+}
+
+.foo-footer ul li a {
+  text-align: center;
+  line-height: calc(1.5em + 0.2vw);
 }
 
 .article2-section a,
@@ -502,16 +571,6 @@ sup {
   height: 50px;
 }
 
-.lat-post6,
-.lat-post11,
-.lat-post6 a,
-.lat-post11 a {
-  align-content: center;
-  text-align: center;
-  background-color: #8c8b8a;
-  color: white;
-}
-
 .lat-img-container {
   margin: 0 auto;
   width: 200px;
@@ -579,8 +638,7 @@ h2 {
 }
 
 .latest-posts4 > p,
-.community-footer > p,
-.more-guides a {
+.community-footer > p {
   width: 16%;
   padding-bottom: 20px;
   border-bottom: 5px solid black;
@@ -661,10 +719,6 @@ h2 {
   font-family: "Nunito", sans-serif;
 }
 
-.community-big a {
-  color: black;
-}
-
 .sm-container {
   float: left;
   margin-left: 30px;
@@ -678,14 +732,6 @@ h2 {
   background-color: #cecece;
   transform: rotate(-10deg);
   border-radius: 5%;
-}
-
-.small-container:hover,
-.book-image div:hover,
-.com-pic-b:hover,
-.author-photo div:hover,
-.head-article div:hover {
-  transform: rotate(0deg);
 }
 
 .small-link {
@@ -777,15 +823,6 @@ h5 {
   padding-left: 50px;
 }
 
-.main-sect a,
-.main-sect a:active {
-  font-family: "Cairo", sans-serif;
-  font-size: 30px;
-  font-weight: bold;
-  margin: 0;
-  color: black;
-}
-
 .main-sect p,
 .guide-pa,
 .guide p {
@@ -805,6 +842,15 @@ h5 {
   margin-right: 50px;
   transform: rotate(-8deg);
   background-color: gray;
+}
+
+
+.small-container:hover,
+.book-image div:hover,
+.com-pic-b:hover,
+.author-photo div:hover,
+.head-article div:hover {
+  transform: rotate(0deg);
 }
 
 .our-guides {
@@ -866,24 +912,6 @@ h3 {
   font-family: "Libre Baskerville", serif;
 }
 
-.guide1 a,
-.guide2 a,
-.guide3 a,
-.guide a {
-  font-family: "Cairo", sans-serif;
-  font-size: 40px;
-  font-weight: bold;
-  margin-bottom: 10px;
-  color: black;
-}
-
-.guide1 a:active,
-.guide2 a:active,
-.guide3 a:active,
-.guide a:active {
-  color: black;
-}
-
 .guide a,
 .guide p,
 .guide-form {
@@ -923,18 +951,6 @@ h3 {
   margin: 0 auto;
   width: 50%;
   text-align: center;
-}
-
-.more-guides a {
-  font-size: 18px;
-  text-decoration: none;
-  color: black;
-}
-
-.more-guides a:active {
-  font-size: 18px;
-  text-decoration: none;
-  color: black;
 }
 
 .guide-pa {
@@ -991,14 +1007,6 @@ footer h4 {
   margin: 0 10px 0 10px;
 }
 
-.footer-list li a {
-  text-align: center;
-  font-size: calc(1em + 0.2vw);
-  text-decoration: none;
-  line-height: calc(1.5em + 0.2vw);
-  padding-right: 5px;
-}
-
 .description-info,
 .foo-footer {
   margin-top: 40px;
@@ -1015,11 +1023,6 @@ footer h4 {
 .foo-footer ul li {
   list-style-type: none;
   margin: 0 10px 0 10px;
-}
-
-.foo-footer ul li a {
-  text-align: center;
-  line-height: calc(1.5em + 0.2vw);
 }
 
 .community-footer {
@@ -1058,3 +1061,4 @@ footer h4 {
     display: none;
   }
 }
+
