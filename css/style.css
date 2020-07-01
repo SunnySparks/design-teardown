@@ -419,6 +419,10 @@ sup {
   color: white;
 }
 
+.community-small a {
+  color: black;
+}
+
 .article2-section,
 .lat-post7 header,
 .lat-post8 header,
@@ -770,10 +774,6 @@ h5 {
 .community-small p {
   font-size: large;
   font-family: "Nunito", sans-serif;
-}
-
-.community-small a {
-  color: black;
 }
 
 .community-small > h4 {
