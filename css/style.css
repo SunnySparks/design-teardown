@@ -391,18 +391,11 @@ sup {
   color: black;
 }
 
-.more-guides a:active {
-  font-size: 18px;
-  text-decoration: none;
-  color: black;
-}
-
 .community-big a {
   color: black;
 }
 
-.main-sect a,
-.main-sect a:active {
+.main-sect a {
   font-family: "Cairo", sans-serif;
   font-size: 30px;
   font-weight: bold;
@@ -421,13 +414,6 @@ sup {
   color: black;
 }
 
-.guide1 a:active,
-.guide2 a:active,
-.guide3 a:active,
-.guide a:active {
-  color: black;
-}
-
 .footer-list li a {
   text-align: center;
   font-size: calc(1em + 0.2vw);
@@ -441,12 +427,26 @@ sup {
   line-height: calc(1.5em + 0.2vw);
 }
 
-.article2-section a,
+.article2-section a {
+  font-family: "Cairo", sans-serif;
+  color: white;
+}
+
 .lat-post7 header a,
 .lat-post8 header a,
 .lat-post9 header a,
 .lat-post10 header a {
   font-family: "Cairo", sans-serif;
+  color: white;
+}
+
+.lat-post6 header a,
+.lat-post11 header a,
+.lat-post6 a:active,
+.lat-post11 a:active {
+  font-family: "Cairo", sans-serif;
+  margin-top: 10px;
+  margin-bottom: 10px;
   color: white;
 }
 
@@ -459,6 +459,27 @@ sup {
   color: white;
   width: 80%;
   margin: 25px;
+}
+
+.main-sect a:active {
+  font-family: "Cairo", sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  margin: 0;
+  color: black;
+}
+
+.more-guides a:active {
+  font-size: 18px;
+  text-decoration: none;
+  color: black;
+}
+
+.guide1 a:active,
+.guide2 a:active,
+.guide3 a:active,
+.guide a:active {
+  color: black;
 }
 
 .article2-section a:hover {
@@ -572,16 +593,12 @@ sup {
 }
 
 .lat-img-container {
-  margin: 0 auto;
-  width: 200px;
-}
-
-.lat-img-container {
   margin-top: 20px;
   width: 200px;
   height: 200px;
   border-radius: 5%;
   background-color: white;
+  margin: 0 auto;
 }
 
 .lat-post6 p,
@@ -595,16 +612,6 @@ sup {
 
 h2 {
   margin: 10px 40px 10px 40px;
-}
-
-.lat-post6 header a,
-.lat-post11 header a,
-.lat-post6 a:active,
-.lat-post11 a:active {
-  font-family: "Cairo", sans-serif;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  color: white;
 }
 
 .lat-post6 button,
