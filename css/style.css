@@ -300,6 +300,7 @@ h1 {
   font-family: "Cormorant Upright", serif;
   font-size: x-large;
   font-weight: 500;
+  cursor: pointer;
 }
 
 .hashtag {
