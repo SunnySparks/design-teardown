@@ -423,6 +423,14 @@ sup {
   color: black;
 }
 
+.lat-post7 header a,
+.lat-post8 header a,
+.lat-post9 header a,
+.lat-post10 header a {
+  font-family: "Cairo", sans-serif;
+  color: white;
+}
+
 .article2-section,
 .lat-post7 header,
 .lat-post8 header,
@@ -786,14 +794,6 @@ h5 {
 
 .small p {
   height: auto;
-}
-
-.lat-post7 header a,
-.lat-post8 header a,
-.lat-post9 header a,
-.lat-post10 header a {
-  font-family: "Cairo", sans-serif;
-  color: white;
 }
 
 .lat-post6 header a,
