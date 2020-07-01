@@ -444,6 +444,22 @@ sup {
   color: white;
 }
 
+.footer-list li a {
+  text-align: center;
+  font-size: calc(1em + 0.2vw);
+  text-decoration: none;
+  line-height: calc(1.5em + 0.2vw);
+  padding-right: 5px;
+}
+
+.footer-list li a,
+.description-info p,
+.description-info a,
+.foo-footer ul li a {
+  color: #fff;
+  transition: color 0.2s ease-out;
+}
+
 .foo-footer ul li a {
   text-align: center;
   line-height: calc(1.5em + 0.2vw);
@@ -987,21 +1003,6 @@ h3 {
   width: 100%;
   margin: 0 auto;
   text-align: center;
-}
-.footer-list li a {
-  text-align: center;
-  font-size: calc(1em + 0.2vw);
-  text-decoration: none;
-  line-height: calc(1.5em + 0.2vw);
-  padding-right: 5px;
-}
-
-.footer-list li a,
-.description-info p,
-.description-info a,
-.foo-footer ul li a {
-  color: #fff;
-  transition: color 0.2s ease-out;
 }
 
 footer h4 {
