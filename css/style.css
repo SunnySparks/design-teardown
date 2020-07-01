@@ -431,6 +431,19 @@ sup {
   color: white;
 }
 
+.lat-post6 header a,
+.lat-post11 header a {
+  font-family: "Cairo", sans-serif;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.foo-footer ul li a {
+  text-align: center;
+  line-height: calc(1.5em + 0.2vw);
+}
+
 .article2-section,
 .lat-post7 header,
 .lat-post8 header,
@@ -794,19 +807,6 @@ h5 {
 
 .small p {
   height: auto;
-}
-
-.lat-post6 header a,
-.lat-post11 header a {
-  font-family: "Cairo", sans-serif;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  color: white;
-}
-
-.foo-footer ul li a {
-  text-align: center;
-  line-height: calc(1.5em + 0.2vw);
 }
 
 .lat-post6 a:active,
