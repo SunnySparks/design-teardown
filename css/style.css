@@ -218,13 +218,29 @@ input[type="text"] {
   display: flex;
 }
 .author-photo {
-  background-color: white;
+  width: 80px;
+  height: 80px;
+  
 }
 
-.author-photo div, .head-article div{
-  width: 80px;
-  height: auto;
+.author-photo div, .head-article div {  
   background-color: white;
+  transform: rotate(-10deg);
+  margin: 0 auto;
+  border-radius: 5px;
+}
+
+.head-article div {
+  width: 40px;
+  height: 40px;
+  margin: 0 auto;
+  margin-top: 2.5%;
+}
+
+.author-photo div {
+  width: 60px;
+  height: 60px;
+  margin-top: 15%;
 }
 
 .author-name {
@@ -237,7 +253,7 @@ input[type="text"] {
   margin-left: 20px;
 }
 
-.head-article div,
+/* .head-article div, */
 .head-article-left div {
   width: 50px;
   height: auto;
@@ -629,6 +645,14 @@ sup {
   transform: rotate(-10deg);
   border-radius: 5%;
 }
+.small-container:hover,
+.book-image div:hover,
+.com-pic-b:hover,
+.author-photo div:hover,
+.head-article div:hover {
+  transform: rotate(0deg);
+}
+
 .small-link {
   text-decoration: none;
   margin-bottom: 5px;
@@ -964,4 +988,14 @@ sup {
   height: auto; 
   margin-top: 30px;
   height: 50px;
+}
+
+.fa-chevron-up {
+  transform: rotate(-10deg);
+  background: white;
+  padding: 5px;
+}
+
+.fa-chevron-up:hover {
+  transform: rotate(0deg);
 }
