@@ -419,43 +419,6 @@ sup {
   color: white;
 }
 
-.footer-list li a {
-  text-align: center;
-  font-size: calc(1em + 0.2vw);
-  text-decoration: none;
-  line-height: calc(1.5em + 0.2vw);
-  padding-right: 5px;
-}
-
-.lat-post7 header a,
-.lat-post8 header a,
-.lat-post9 header a,
-.lat-post10 header a {
-  font-family: "Cairo", sans-serif;
-  color: white;
-}
-
-.lat-post6 header a,
-.lat-post11 header a {
-  font-family: "Cairo", sans-serif;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  color: white;
-}
-
-.foo-footer ul li a {
-  text-align: center;
-  line-height: calc(1.5em + 0.2vw);
-}
-
-.lat-post6 a:active,
-.lat-post11 a:active {
-  font-family: "Cairo", sans-serif;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  color: white;
-}
-
 .article2-section,
 .lat-post7 header,
 .lat-post8 header,
@@ -825,6 +788,35 @@ h5 {
   height: auto;
 }
 
+.lat-post7 header a,
+.lat-post8 header a,
+.lat-post9 header a,
+.lat-post10 header a {
+  font-family: "Cairo", sans-serif;
+  color: white;
+}
+
+.lat-post6 header a,
+.lat-post11 header a {
+  font-family: "Cairo", sans-serif;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.foo-footer ul li a {
+  text-align: center;
+  line-height: calc(1.5em + 0.2vw);
+}
+
+.lat-post6 a:active,
+.lat-post11 a:active {
+  font-family: "Cairo", sans-serif;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: white;
+}
+
 .featured-section {
   display: grid;
   grid-template-columns: 2fr 1fr;
@@ -992,6 +984,13 @@ h3 {
   width: 100%;
   margin: 0 auto;
   text-align: center;
+}
+.footer-list li a {
+  text-align: center;
+  font-size: calc(1em + 0.2vw);
+  text-decoration: none;
+  line-height: calc(1.5em + 0.2vw);
+  padding-right: 5px;
 }
 
 .footer-list li a,
