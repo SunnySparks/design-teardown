@@ -414,6 +414,11 @@ sup {
   color: black;
 }
 
+.article2-section a {
+  font-family: "Cairo", sans-serif;
+  color: white;
+}
+
 .footer-list li a {
   text-align: center;
   font-size: calc(1em + 0.2vw);
@@ -425,11 +430,6 @@ sup {
 .foo-footer ul li a {
   text-align: center;
   line-height: calc(1.5em + 0.2vw);
-}
-
-.article2-section a {
-  font-family: "Cairo", sans-serif;
-  color: white;
 }
 
 .lat-post7 header a,
