@@ -428,6 +428,19 @@ sup {
   margin-right: 30px;
 }
 
+.description-info a,
+.foo-footer ul li a {
+  color: #fff;
+  transition: color 0.2s ease-out;
+}
+
+.foo-footer ul li a {
+  color: #fff;
+  transition: color 0.2s ease-out;
+  text-align: center;
+  line-height: calc(1.5em + 0.2vw);
+}
+
 .lat-post7 header a,
 .lat-post8 header a,
 .lat-post9 header a,
@@ -450,19 +463,13 @@ sup {
   text-decoration: none;
   line-height: calc(1.5em + 0.2vw);
   padding-right: 5px;
-}
-
-.footer-list li a,
-.description-info p,
-.description-info a,
-.foo-footer ul li a {
   color: #fff;
   transition: color 0.2s ease-out;
 }
 
-.foo-footer ul li a {
-  text-align: center;
-  line-height: calc(1.5em + 0.2vw);
+.description-info p{
+  color: #fff;
+  transition: color 0.2s ease-out;
 }
 
 .article2-section,
