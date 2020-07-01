@@ -999,3 +999,9 @@ sup {
 .fa-chevron-up:hover {
   transform: rotate(0deg);
 }
+
+@media (max-width: 600px) {
+  .navbar {
+    
+  }
+}
