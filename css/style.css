@@ -178,10 +178,6 @@ h1 {
   padding: 10px 5px 5px 15px;
 }
 
-.author {
-  display: flex;
-}
-
 .model {
   background: #000;
   opacity: 0.5;
@@ -213,8 +209,6 @@ h1 {
 }
 
 .article-title,
-.author,
-.author1,
 .hashtag,
 .next-arrow {
   width: 80%;
@@ -225,12 +219,16 @@ h1 {
   height: 80px;
   margin-top: 190px;
   display: flex;
+  width: 80%;
+  margin: 0 auto;
 }
 
 .author1 {
   height: 80px;
   margin-top: 50px;
   display: flex;
+  width: 80%;
+  margin: 0 auto;
 }
 
 .author-photo {
@@ -269,11 +267,6 @@ h1 {
   margin-left: 20px;
 }
 
-.head-article-left div {
-  width: 50px;
-  height: auto;
-}
-
 .head-article .btn,
 .head-article-left .btn {
   width: 125px;
@@ -304,6 +297,9 @@ h1 {
 
 .comment span {
   padding-left: 20px;
+  font-family: "Cormorant Upright", serif;
+  font-size: x-large;
+  font-weight: 500;
 }
 
 .hashtag {
@@ -320,12 +316,6 @@ h1 {
 .next-arrow a i {
   size: 7px;
   color: #fff;
-}
-
-.comment span {
-  font-family: "Cormorant Upright", serif;
-  font-size: x-large;
-  font-weight: 500;
 }
 
 .hashtag p {
@@ -382,6 +372,15 @@ sup {
   margin-left: 25px;
 }
 
+.article2-section a,
+.lat-post7 header a,
+.lat-post8 header a,
+.lat-post9 header a,
+.lat-post10 header a {
+  font-family: "Cairo", sans-serif;
+  color: white;
+}
+
 .article2-section,
 .lat-post7 header,
 .lat-post8 header,
@@ -391,15 +390,6 @@ sup {
   color: white;
   width: 80%;
   margin: 25px;
-}
-
-.article2-section a,
-.lat-post7 header a,
-.lat-post8 header a,
-.lat-post9 header a,
-.lat-post10 header a {
-  font-family: "Cairo", sans-serif;
-  color: white;
 }
 
 .article2-section a:hover {
@@ -463,6 +453,13 @@ sup {
   width: 100%;
 }
 
+.lat-post7,
+.lat-post8,
+.lat-post10,
+.lat-post9 {
+  height: 650px;
+}
+
 .lat-post2:hover,
 .lat-post3:hover,
 .lat-post4:hover,
@@ -494,13 +491,6 @@ sup {
 .latest-posts3 {
   display: flex;
   margin-top: 5px;
-  height: 650px;
-}
-
-.lat-post7,
-.lat-post8,
-.lat-post10,
-.lat-post9 {
   height: 650px;
 }
 
