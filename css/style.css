@@ -436,9 +436,7 @@ sup {
 }
 
 .lat-post6 header a,
-.lat-post11 header a,
-.lat-post6 a:active,
-.lat-post11 a:active {
+.lat-post11 header a {
   font-family: "Cairo", sans-serif;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -448,6 +446,14 @@ sup {
 .foo-footer ul li a {
   text-align: center;
   line-height: calc(1.5em + 0.2vw);
+}
+
+.lat-post6 a:active,
+.lat-post11 a:active {
+  font-family: "Cairo", sans-serif;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: white;
 }
 
 .article2-section,
