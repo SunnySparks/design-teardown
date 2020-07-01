@@ -795,6 +795,11 @@ sup {
   margin-top: 20px;
   border-radius: 10px;
 }
+
+.guide img {
+  width: 100%;
+}
+
 .guide1 h3, 
 .guide2 h3, 
 .guide3 h3 {
