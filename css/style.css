@@ -428,17 +428,9 @@ sup {
   margin-right: 30px;
 }
 
-.description-info a,
-.foo-footer ul li a {
+.description-info a {
   color: #fff;
   transition: color 0.2s ease-out;
-}
-
-.foo-footer ul li a {
-  color: #fff;
-  transition: color 0.2s ease-out;
-  text-align: center;
-  line-height: calc(1.5em + 0.2vw);
 }
 
 .lat-post7 header a,
@@ -465,6 +457,13 @@ sup {
   padding-right: 5px;
   color: #fff;
   transition: color 0.2s ease-out;
+}
+
+.foo-footer ul li a {
+  color: #fff;
+  transition: color 0.2s ease-out;
+  text-align: center;
+  line-height: calc(1.5em + 0.2vw);
 }
 
 .description-info p{
