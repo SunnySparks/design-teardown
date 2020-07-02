@@ -385,7 +385,8 @@ sup {
   color: black;
 }
 
-.community-big a {
+.community-big a,
+.community-small a {
   color: black;
 }
 
@@ -400,10 +401,6 @@ sup {
 .article2-section a {
   font-family: "Cairo", sans-serif;
   color: white;
-}
-
-.community-small a {
-  color: black;
 }
 
 .guide1 a,
@@ -490,18 +487,7 @@ sup {
   color: black;
 }
 
-.guide1 a:active,
-.guide2 a:active,
-.guide3 a:active,
-.guide a:active {
-  color: black;
-}
-
-.article2-section a:hover {
-  font-family: "Cairo", sans-serif;
-  color: white;
-}
-
+.article2-section a:hover,
 .article2-section a:active {
   font-family: "Cairo", sans-serif;
   color: white;
