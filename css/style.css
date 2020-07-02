@@ -284,13 +284,6 @@ h1 {
   margin-top: 20px;
 }
 
-.article-title h2 {
-  padding: 10px 10px 0 50px;
-  font-size: xx-large;
-  font-weight: 900;
-  font-family: "Cairo", sans-serif;
-}
-
 .comment {
   margin-left: 30px;
 }
@@ -644,6 +637,13 @@ sup {
 
 h2 {
   margin: 10px 40px 10px 40px;
+}
+
+.article-title h2 {
+  padding: 10px 10px 0 50px;
+  font-size: xx-large;
+  font-weight: 900;
+  font-family: "Cairo", sans-serif;
 }
 
 .lat-post6 button,
