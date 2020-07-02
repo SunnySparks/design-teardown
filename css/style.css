@@ -215,16 +215,15 @@ h1 {
   margin: 0 auto;
 }
 
-.author, 
+.author,
 .author1 {
   height: 80px;
   display: flex;
   width: 80%;
   margin: 0 auto;
-
 }
 
-.author{
+.author {
   margin-top: 190px;
 }
 
@@ -357,7 +356,7 @@ sup {
   font-family: "Nunito", sans-serif;
 }
 
-.lat-post1, 
+.lat-post1,
 .lat-post2 {
   background-color: #a8a8a8;
 }
@@ -884,8 +883,8 @@ footer h4 {
   grid-area: c;
 }
 
-.guide1, 
-.guide2, 
+.guide1,
+.guide2,
 .guide3 {
   border: 1px solid black;
   height: 600px;
