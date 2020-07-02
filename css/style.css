@@ -215,19 +215,20 @@ h1 {
   margin: 0 auto;
 }
 
-.author {
-  height: 80px;
-  display: flex;
-  width: 80%;
-  margin: 0 auto;
-  margin-top: 190px;
-}
-
+.author, 
 .author1 {
   height: 80px;
   display: flex;
   width: 80%;
   margin: 0 auto;
+
+}
+
+.author{
+  margin-top: 190px;
+}
+
+.author1 {
   margin-top: 50px;
 }
 
@@ -354,9 +355,9 @@ sup {
   writing-mode: vertical-rl;
   text-orientation: upright;
   font-family: "Nunito", sans-serif;
-  background-color: #a8a8a8;
 }
 
+.lat-post1, 
 .lat-post2 {
   background-color: #a8a8a8;
 }
@@ -388,10 +389,12 @@ sup {
   border-bottom: 5px solid black;
   font-size: 18px;
   text-decoration: none;
-  color: black;
 }
 
-.community-big a {
+.more-guides a,
+.community-big a,
+.community-small a,
+.main-sect a {
   color: black;
 }
 
@@ -400,16 +403,11 @@ sup {
   font-size: 30px;
   font-weight: bold;
   margin: 0;
-  color: black;
 }
 
 .article2-section a {
   font-family: "Cairo", sans-serif;
   color: white;
-}
-
-.community-small a {
-  color: black;
 }
 
 .guide1 a,
@@ -496,23 +494,6 @@ sup {
   color: black;
 }
 
-.guide1 a:active,
-.guide2 a:active,
-.guide3 a:active,
-.guide a:active {
-  color: black;
-}
-
-.article2-section a:hover {
-  font-family: "Cairo", sans-serif;
-  color: white;
-}
-
-.article2-section a:active {
-  font-family: "Cairo", sans-serif;
-  color: white;
-}
-
 .lat-post6 a:active,
 .lat-post11 a:active {
   font-family: "Cairo", sans-serif;
@@ -528,10 +509,6 @@ sup {
 .lat-post10 span {
   font-family: "Roboto", sans-serif;
   font-weight: bold;
-  color: #424242;
-}
-
-.article2-section span a:active {
   color: #424242;
 }
 
@@ -777,10 +754,6 @@ h2 {
   border-bottom: 1px solid black;
 }
 
-.small-link:active {
-  color: black;
-}
-
 h5 {
   text-decoration: none;
   font-weight: bold;
@@ -821,10 +794,6 @@ h5 {
   margin-right: auto;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
-  grid-template-areas:
-    "c1 c2"
-    "c3 c4"
-    "c5 c6";
 }
 
 .community-small p {
@@ -896,39 +865,32 @@ footer h4 {
   margin-top: 30px;
   grid-template-columns: 4% 30% 30% 30%;
   grid-template-rows: auto;
-  grid-template-areas: "txt g1 g2 g3";
+  grid-template-areas: "txt a b c";
 }
 
 .guide-text {
-  grid-area: "txt";
+  grid-area: txt;
 }
 
 .guide1 {
-  border: 1px solid black;
-  height: 600px;
-  margin: 60px 20px 60px 20px;
-  border-radius: 10px;
-  grid-area: "g1";
-  padding-left: 20px;
-  padding-right: 20px;
+  grid-area: a;
 }
 
 .guide2 {
-  border: 1px solid black;
-  height: 600px;
-  margin: 60px 20px 60px 20px;
-  border-radius: 10px;
-  grid-area: "g2";
-  padding-left: 20px;
-  padding-right: 20px;
+  grid-area: b;
 }
 
+.guide3 {
+  grid-area: c;
+}
+
+.guide1, 
+.guide2, 
 .guide3 {
   border: 1px solid black;
   height: 600px;
   margin: 60px 20px 60px 20px;
   border-radius: 10px;
-  grid-area: "g3";
   padding-left: 20px;
   padding-right: 20px;
 }
